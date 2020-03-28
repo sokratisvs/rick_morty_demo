@@ -1,0 +1,35 @@
+$blueColor: #2194d3;
+$whiteColor: #f1f1f1;
+
+.footer {
+  display: inline-flex;
+  margin: 30px 0px 30px 0px;
+  width: 45%;
+  height: 45%;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.previousContainer,
+.nextContainer {
+  width: 48px;
+  background-color: $whiteColor;
+  border-radius: 5px;
+  display: flex;
+
+  justify-content: center;
+  text-align: center;
+}
+
+.previousButton,
+.nextButton {
+  position: relative;
+  width: 100%;
+  border: 0;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.genderContainer,
+.spiecesContainer,
+.statusContainer {
+  display: flex;
+  padding: 5px 10px 5px 10px;
+}
+
+.sortBy {
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 620px) {
+  .headerContainer {
+    flex-direction: row;
+  }
+
+  .genderContainer,
+  .spiecesContainer,
+  .statusContainer {
+    padding: 0 10px 0 10px;
+  }
+}
